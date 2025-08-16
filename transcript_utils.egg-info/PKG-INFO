@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: transcript_utils
+Version: 0.1.1
+Summary: Utilities for mRNA transcriptome/translatome research.
+Author-email: Colin Mikulski <cmikulski@vassar.edu>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.23
+Requires-Dist: pandas>=1.5
+Requires-Dist: regex>=2024.11.6
+Dynamic: license-file
+
+# transcript-utils
+Public repository for Vassar Ribosome Lab transcriptomics/translatomics utilities. Includes R, Python and SLURM utilities for alignment, quantification, TE change calculation with DESeq, downstream analysis and more. 
+
+# longread-analysis
+Includes CDS Finder, a Python tool for finding known coding sequences in mRNA transcripts. Accounts for errors in longread sequencing and biological variation through sequence similarity and other computational tricks, and handles exotic cases like multiple and overlapping CDS's.
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+longread_utils/CDS_finder.py
+transcript_utils.egg-info/PKG-INFO
+transcript_utils.egg-info/SOURCES.txt
+transcript_utils.egg-info/dependency_links.txt
+transcript_utils.egg-info/requires.txt
+transcript_utils.egg-info/top_level.txt
