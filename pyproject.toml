@@ -35,5 +35,5 @@ dependencies = [
 #     "flake8",
 # ]
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.setuptools]
+packages = ["transcript_utils"]
