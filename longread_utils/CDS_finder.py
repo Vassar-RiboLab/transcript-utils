@@ -97,7 +97,7 @@ def extract_cds_info(transcript: str, cds_ids: list[str], cds_seqs: list[str], e
     if not cds_seqs: 
         # The entire transcript is a non-CDS region.
         non_cds = [transcript] if transcript else []
-        return ([], [], [], [], [], [], non_cds, [], [], [], "", "")
+        return ([], [], [], [], [], [], [], non_cds, [], [], [], "", "")
 
     # Step 1: Find the start and end of each CDS. Store as objects to keep data together.
     exact_indices = [i for i, x in enumerate(exact_list) if x]
@@ -190,7 +190,7 @@ def extract_cds_info(transcript: str, cds_ids: list[str], cds_seqs: list[str], e
     # If no provided CDS sequences were found in the transcript.
     if not cds_info_list:
         non_cds = [transcript] if transcript else []
-        return ([], [], [], [], [], [], non_cds, [], [], [], "", "")
+        return ([], [], [], [], [], [], [], non_cds, [], [], [], "", "")
 
     # Step 2: Sort the CDSs based on their starting position.
     ordered_cds_info = sorted(cds_info_list, key=lambda x: x["start"])
