@@ -36,4 +36,4 @@ dependencies = [
 # ]
 
 [tool.setuptools]
-packages = ["transcript_utils"]
+packages = ["longread_utils"]
